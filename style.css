@@ -1,0 +1,66 @@
+:root {
+    --main-color: #d0e9fa;
+    --Poppins:  'Poppins', sans-serif;
+    --spacing: 1px;
+}
+
+html, body {
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    height: 100dvh;
+    background-color: #224652;
+}
+
+.vertical-center {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.container-fluid {
+    text-align: center;
+}
+
+#introduction img {
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 100%;
+    border: 4px solid var(--main-color);
+}
+
+h1 {
+    color: var(--main-color);
+    font-family: var(--Poppins);
+    font-size: 50px;
+    padding-top: 30px;
+    letter-spacing: var(--spacing);
+}
+
+p {
+    color: var(--main-color);
+    font-family: var(--Poppins);
+    font-size: 30px;
+    letter-spacing: var(--spacing);
+}
+
+.social-icons {
+    margin-top: 40px;
+}
+
+.social-icons a {
+    color: var(--main-color);
+    font-size: 35px;
+    padding: 0 20px;
+}
+
+.social-item {
+    display: inline-block;
+}
+
+i {
+    color: var(--main-color);
+}
